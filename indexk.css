@@ -1,0 +1,65 @@
+.head{
+    display: flex;
+}
+.image{
+    height: 20vh;
+    width: 20vh;
+    background-image: url("./kaleel.jpg");
+    background-size: cover;
+    border-radius: 80%;
+    margin-left: 50vw;
+    margin-top: 1vh;
+
+}
+#button{
+    background-color:blanchedalmond;
+    color: rgb(166, 255, 0);
+    padding: 15px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20;
+    padding: 0;
+    background-color: #f2f2f2f2;
+  }
+
+  header {
+    background-color: #36045e;
+    color: white;
+    text-align:left;
+    padding: 1em;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+
+  .left-section, .right-section {
+    flex: 1;
+  }
+
+  .right-section {
+    background-color: #fff;
+    border-left: 7px solid #333;
+    padding-left:5em;
+  }
+
+  h2 {
+    color: #681d1d;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table, th, td {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
